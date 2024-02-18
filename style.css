@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(241,248,255,255);
+}
+
+header{
+    width:1280px;
+    border-bottom:solid 3px rgba(135,171,203,255);
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    font-size:48px;
+    text-align: center;
+    color:rgba(121,160,196,255);
+}
+
+main{
+    width:1280px;
+    margin:auto;
+    text-align:center;
+    padding-top:20px;
+}
+
+.userInputArea{
+    padding-left:120px;
+}
+
+main input{
+    height:25px;
+    width:450px;
+}
+
+main .search{
+    display:inline-block;
+    margin-left:20px;
+    height:28px;
+    width:100px;
+    line-height:25px;
+    border: solid rgba(135,171,203,255) 1px;
+    background-color: rgba(214,234,252,255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .search:hover{
+    background-color: rgba(200,220,232,255);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .search:active{
+    background-color: rgba(214,234,252,255);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resultArea{
+    margin-top:10px;
+    font-size:24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    margin:auto;
+    padding-bottom:20px;
+}
+
+.container p{
+    color:white;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
